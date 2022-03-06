@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/loading.css">
+    <title>Advice Generator</title>
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1 class="sr-only">Advice Generator App</h1>
+        <div class="lds-ellipsis" id="loading">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="card" id="card">
+            <p class="title">advice #<span id="adviceId">117</span></p>
+            <p class="advice" id="adviceText">
+                "It is aesy to sit up and take notice, what's difficult is getting up and atking action."
+            </p>
+            <img src="./images/pattern-divider-mobile.svg" class="devider_mobile" alt="divider_mobile" role="presentation">
+            <img src="./images/pattern-divider-desktop.svg" class="devider_desktop" alt="divider_desktop" role="presentation">
+            <button class="btn" id="btn">
+                <img src="./images/icon-dice.svg" alt="Role dice icon" />
+                <span class="sr-only">next</span>
+            </button>
+        </div>
+    </main>
+</body>
+</html>
